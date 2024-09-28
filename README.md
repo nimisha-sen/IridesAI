@@ -1,4 +1,3 @@
-# IridesAI
 # Thesis: IridesAI
 
 ## Overview
