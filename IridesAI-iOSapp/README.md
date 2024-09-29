@@ -15,4 +15,5 @@
 
 ## High Level & Low Level Design:
 <img width="1694" alt="Screenshot 2024-09-29 at 8 39 10 AM" src="https://github.com/user-attachments/assets/0ef0e3ec-9fb9-42e7-92f7-1d4efafbf076">
-<img width="1694" alt="system design" src="https://github.com/user-attachments/assets/603b896c-b614-4cd4-b327-43733d884ab0">
+
+![Frame 90](https://github.com/user-attachments/assets/4965efb7-4802-464f-bbfc-b3c6d479ec15)
