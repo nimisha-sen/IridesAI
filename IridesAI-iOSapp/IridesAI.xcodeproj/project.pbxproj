@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		771D27C72C8CBBF300CDA5BE /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F85A2C8C6E9F004BA7FE /* DataViewModel.swift */; };
+		771D27C82C8CBBF900CDA5BE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F8522C8C67C1004BA7FE /* NetworkService.swift */; };
+		771D27C92C8CBBF900CDA5BE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F84F2C8C64A5004BA7FE /* NetworkManager.swift */; };
+		771D27CA2C8CBBFC00CDA5BE /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F8582C8C6AE1004BA7FE /* Prompt.swift */; };
+		771D27CD2C8CBEDC00CDA5BE /* AnimatedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D27CC2C8CBEDC00CDA5BE /* AnimatedGradient.swift */; };
+		771D27CE2C8CBEFE00CDA5BE /* AnimatedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D27CC2C8CBEDC00CDA5BE /* AnimatedGradient.swift */; };
+		771D27D12C8CC23100CDA5BE /* ExtensionsPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D27D02C8CC23100CDA5BE /* ExtensionsPlus.swift */; };
+		771D27D22C8CC24100CDA5BE /* ExtensionsPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771D27D02C8CC23100CDA5BE /* ExtensionsPlus.swift */; };
+		774C109E2CA70CD800E289EC /* DocDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774C109D2CA70CD800E289EC /* DocDetailsViewModel.swift */; };
+		774C109F2CA70CD800E289EC /* DocDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774C109D2CA70CD800E289EC /* DocDetailsViewModel.swift */; };
+		774C10A22CA70E0300E289EC /* DocDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774C10A12CA70E0300E289EC /* DocDetailsView.swift */; };
+		774C10A32CA70E0300E289EC /* DocDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774C10A12CA70E0300E289EC /* DocDetailsView.swift */; };
+		774C10A62CA7239700E289EC /* llmfarm_core in Frameworks */ = {isa = PBXBuildFile; productRef = 774C10A52CA7239700E289EC /* llmfarm_core */; };
+		775141FB2C8CBAB3002CF9B7 /* LameiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775141FA2C8CBAB3002CF9B7 /* LameiAppApp.swift */; };
+		775141FD2C8CBAB3002CF9B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775141FC2C8CBAB3002CF9B7 /* MainView.swift */; };
+		775141FF2C8CBAB5002CF9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775141FE2C8CBAB5002CF9B7 /* Assets.xcassets */; };
+		775142022C8CBAB5002CF9B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775142012C8CBAB5002CF9B7 /* Preview Assets.xcassets */; };
+		776241B82CA82FFA00042E55 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776241B72CA82FFA00042E55 /* RootView.swift */; };
+		7766E8FE2CA6C2E90019AB80 /* DocumentSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766E8FD2CA6C2E90019AB80 /* DocumentSelectorView.swift */; };
+		7766E9002CA6D6BD0019AB80 /* DocViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766E8FF2CA6D6BD0019AB80 /* DocViewControllerX.swift */; };
+		7766E9022CA6D8C00019AB80 /* DocSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766E9012CA6D8C00019AB80 /* DocSelectorViewModel.swift */; };
+		7766E9032CA6D8C00019AB80 /* DocSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766E9012CA6D8C00019AB80 /* DocSelectorViewModel.swift */; };
+		7767BF832CA98C8D00685C2C /* DiversityTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7767BF822CA98C8D00685C2C /* DiversityTheme.swift */; };
+		7767BF842CA98C8D00685C2C /* DiversityTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7767BF822CA98C8D00685C2C /* DiversityTheme.swift */; };
+		776ADD5B2CA485F500F49FF1 /* MainViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776ADD5A2CA485F500F49FF1 /* MainViewViewController.swift */; };
+		776ADD5D2CA4872400F49FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776ADD5C2CA4872400F49FF1 /* AppDelegate.swift */; };
+		77A1C6972CA7A2720082FC92 /* Toaster in Frameworks */ = {isa = PBXBuildFile; productRef = 77A1C6962CA7A2720082FC92 /* Toaster */; };
+		77C5F83F2C8C646A004BA7FE /* LameiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F83E2C8C646A004BA7FE /* LameiApp.swift */; };
+		77C5F8412C8C646A004BA7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F8402C8C646A004BA7FE /* ContentView.swift */; };
+		77C5F8432C8C646A004BA7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C5F8422C8C646A004BA7FE /* Assets.xcassets */; };
+		77C5F8462C8C646A004BA7FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C5F8452C8C646A004BA7FE /* Preview Assets.xcassets */; };
+		77C5F8502C8C64A5004BA7FE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F84F2C8C64A5004BA7FE /* NetworkManager.swift */; };
+		77C5F8532C8C67C1004BA7FE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F8522C8C67C1004BA7FE /* NetworkService.swift */; };
+		77C5F8562C8C696D004BA7FE /* readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 77C5F8552C8C696D004BA7FE /* readme.rtf */; };
+		77C5F8592C8C6AE1004BA7FE /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F8582C8C6AE1004BA7FE /* Prompt.swift */; };
+		77C5F85B2C8C6E9F004BA7FE /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5F85A2C8C6E9F004BA7FE /* DataViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		771D27CB2C8CBE4D00CDA5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		771D27CC2C8CBEDC00CDA5BE /* AnimatedGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradient.swift; sourceTree = "<group>"; };
+		771D27D02C8CC23100CDA5BE /* ExtensionsPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsPlus.swift; sourceTree = "<group>"; };
+		774C109D2CA70CD800E289EC /* DocDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocDetailsViewModel.swift; sourceTree = "<group>"; };
+		774C10A12CA70E0300E289EC /* DocDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocDetailsView.swift; sourceTree = "<group>"; };
+		775141F82C8CBAB3002CF9B7 /* LameiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LameiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775141FA2C8CBAB3002CF9B7 /* LameiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LameiAppApp.swift; sourceTree = "<group>"; };
+		775141FC2C8CBAB3002CF9B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		775141FE2C8CBAB5002CF9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775142012C8CBAB5002CF9B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		776241B72CA82FFA00042E55 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7766E8FD2CA6C2E90019AB80 /* DocumentSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSelectorView.swift; sourceTree = "<group>"; };
+		7766E8FF2CA6D6BD0019AB80 /* DocViewControllerX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewControllerX.swift; sourceTree = "<group>"; };
+		7766E9012CA6D8C00019AB80 /* DocSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocSelectorViewModel.swift; sourceTree = "<group>"; };
+		7767BF822CA98C8D00685C2C /* DiversityTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityTheme.swift; sourceTree = "<group>"; };
+		776ADD5A2CA485F500F49FF1 /* MainViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewController.swift; sourceTree = "<group>"; };
+		776ADD5C2CA4872400F49FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77C5F83B2C8C646A004BA7FE /* Lamei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lamei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C5F83E2C8C646A004BA7FE /* LameiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LameiApp.swift; sourceTree = "<group>"; };
+		77C5F8402C8C646A004BA7FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77C5F8422C8C646A004BA7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77C5F8452C8C646A004BA7FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77C5F8472C8C646A004BA7FE /* Lamei.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lamei.entitlements; sourceTree = "<group>"; };
+		77C5F84F2C8C64A5004BA7FE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		77C5F8522C8C67C1004BA7FE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		77C5F8552C8C696D004BA7FE /* readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
+		77C5F8582C8C6AE1004BA7FE /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		77C5F85A2C8C6E9F004BA7FE /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775141F52C8CBAB3002CF9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774C10A62CA7239700E289EC /* llmfarm_core in Frameworks */,
+				77A1C6972CA7A2720082FC92 /* Toaster in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C5F8382C8C646A004BA7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		771D27CF2C8CC22400CDA5BE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				771D27D02C8CC23100CDA5BE /* ExtensionsPlus.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		774C10A02CA70DF000E289EC /* DocDetails */ = {
+			isa = PBXGroup;
+			children = (
+				774C10A12CA70E0300E289EC /* DocDetailsView.swift */,
+			);
+			path = DocDetails;
+			sourceTree = "<group>";
+		};
+		774C10A72CA7245500E289EC /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		775141F92C8CBAB3002CF9B7 /* LameiApp */ = {
+			isa = PBXGroup;
+			children = (
+				771D27CB2C8CBE4D00CDA5BE /* Info.plist */,
+				775141FA2C8CBAB3002CF9B7 /* LameiAppApp.swift */,
+				7766E8FB2CA6C2B50019AB80 /* Views */,
+				775141FE2C8CBAB5002CF9B7 /* Assets.xcassets */,
+				775142002C8CBAB5002CF9B7 /* Preview Content */,
+				776ADD5C2CA4872400F49FF1 /* AppDelegate.swift */,
+			);
+			path = LameiApp;
+			sourceTree = "<group>";
+		};
+		775142002C8CBAB5002CF9B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				775142012C8CBAB5002CF9B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		775142062C8CBB15002CF9B7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				771D27CF2C8CC22400CDA5BE /* Utility */,
+				771D27CC2C8CBEDC00CDA5BE /* AnimatedGradient.swift */,
+				77C5F8512C8C6659004BA7FE /* Services */,
+				77C5F8542C8C6949004BA7FE /* ViewModel */,
+				77C5F8572C8C6ACF004BA7FE /* Model */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7766E8FB2CA6C2B50019AB80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				774C10A02CA70DF000E289EC /* DocDetails */,
+				7766E8FC2CA6C2C60019AB80 /* DocumentSelector */,
+				7766E9042CA6DBA50019AB80 /* ChatBot */,
+				776ADD5A2CA485F500F49FF1 /* MainViewViewController.swift */,
+				776241B72CA82FFA00042E55 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7766E8FC2CA6C2C60019AB80 /* DocumentSelector */ = {
+			isa = PBXGroup;
+			children = (
+				7766E8FD2CA6C2E90019AB80 /* DocumentSelectorView.swift */,
+				7766E8FF2CA6D6BD0019AB80 /* DocViewControllerX.swift */,
+			);
+			path = DocumentSelector;
+			sourceTree = "<group>";
+		};
+		7766E9042CA6DBA50019AB80 /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				775141FC2C8CBAB3002CF9B7 /* MainView.swift */,
+			);
+			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		77C5F8322C8C646A004BA7FE = {
+			isa = PBXGroup;
+			children = (
+				774C10A72CA7245500E289EC /* SupportFiles */,
+				775142062C8CBB15002CF9B7 /* Shared */,
+				77C5F83D2C8C646A004BA7FE /* Lamei */,
+				775141F92C8CBAB3002CF9B7 /* LameiApp */,
+				77C5F83C2C8C646A004BA7FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C5F83C2C8C646A004BA7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F83B2C8C646A004BA7FE /* Lamei.app */,
+				775141F82C8CBAB3002CF9B7 /* LameiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C5F83D2C8C646A004BA7FE /* Lamei */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F83E2C8C646A004BA7FE /* LameiApp.swift */,
+				77C5F84D2C8C6471004BA7FE /* Views */,
+				77C5F8422C8C646A004BA7FE /* Assets.xcassets */,
+				77C5F8472C8C646A004BA7FE /* Lamei.entitlements */,
+				77C5F8442C8C646A004BA7FE /* Preview Content */,
+				77C5F8552C8C696D004BA7FE /* readme.rtf */,
+			);
+			path = Lamei;
+			sourceTree = "<group>";
+		};
+		77C5F8442C8C646A004BA7FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F8452C8C646A004BA7FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77C5F84D2C8C6471004BA7FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F8402C8C646A004BA7FE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77C5F84E2C8C6485004BA7FE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F84F2C8C64A5004BA7FE /* NetworkManager.swift */,
+				77C5F8522C8C67C1004BA7FE /* NetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		77C5F8512C8C6659004BA7FE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F84E2C8C6485004BA7FE /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77C5F8542C8C6949004BA7FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F85A2C8C6E9F004BA7FE /* DataViewModel.swift */,
+				7766E9012CA6D8C00019AB80 /* DocSelectorViewModel.swift */,
+				774C109D2CA70CD800E289EC /* DocDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		77C5F8572C8C6ACF004BA7FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77C5F8582C8C6AE1004BA7FE /* Prompt.swift */,
+				7767BF822CA98C8D00685C2C /* DiversityTheme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775141F72C8CBAB3002CF9B7 /* LameiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775142032C8CBAB5002CF9B7 /* Build configuration list for PBXNativeTarget "LameiApp" */;
+			buildPhases = (
+				775141F42C8CBAB3002CF9B7 /* Sources */,
+				775141F52C8CBAB3002CF9B7 /* Frameworks */,
+				775141F62C8CBAB3002CF9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LameiApp;
+			productName = LameiApp;
+			productReference = 775141F82C8CBAB3002CF9B7 /* LameiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77C5F83A2C8C646A004BA7FE /* Lamei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C5F84A2C8C646A004BA7FE /* Build configuration list for PBXNativeTarget "Lamei" */;
+			buildPhases = (
+				77C5F8372C8C646A004BA7FE /* Sources */,
+				77C5F8382C8C646A004BA7FE /* Frameworks */,
+				77C5F8392C8C646A004BA7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lamei;
+			productName = Lamei;
+			productReference = 77C5F83B2C8C646A004BA7FE /* Lamei.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C5F8332C8C646A004BA7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					775141F72C8CBAB3002CF9B7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					77C5F83A2C8C646A004BA7FE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 77C5F8362C8C646A004BA7FE /* Build configuration list for PBXProject "Lamei" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77C5F8322C8C646A004BA7FE;
+			packageReferences = (
+				774C10A42CA7239700E289EC /* XCRemoteSwiftPackageReference "llmfarm_core" */,
+				77A1C6952CA7A2720082FC92 /* XCRemoteSwiftPackageReference "Toaster" */,
+			);
+			productRefGroup = 77C5F83C2C8C646A004BA7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C5F83A2C8C646A004BA7FE /* Lamei */,
+				775141F72C8CBAB3002CF9B7 /* LameiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775141F62C8CBAB3002CF9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775142022C8CBAB5002CF9B7 /* Preview Assets.xcassets in Resources */,
+				775141FF2C8CBAB5002CF9B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C5F8392C8C646A004BA7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C5F8562C8C696D004BA7FE /* readme.rtf in Resources */,
+				77C5F8462C8C646A004BA7FE /* Preview Assets.xcassets in Resources */,
+				77C5F8432C8C646A004BA7FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775141F42C8CBAB3002CF9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7766E9032CA6D8C00019AB80 /* DocSelectorViewModel.swift in Sources */,
+				7766E9002CA6D6BD0019AB80 /* DocViewControllerX.swift in Sources */,
+				775141FD2C8CBAB3002CF9B7 /* MainView.swift in Sources */,
+				771D27CE2C8CBEFE00CDA5BE /* AnimatedGradient.swift in Sources */,
+				771D27CA2C8CBBFC00CDA5BE /* Prompt.swift in Sources */,
+				771D27D22C8CC24100CDA5BE /* ExtensionsPlus.swift in Sources */,
+				776ADD5B2CA485F500F49FF1 /* MainViewViewController.swift in Sources */,
+				7766E8FE2CA6C2E90019AB80 /* DocumentSelectorView.swift in Sources */,
+				776241B82CA82FFA00042E55 /* RootView.swift in Sources */,
+				774C109E2CA70CD800E289EC /* DocDetailsViewModel.swift in Sources */,
+				7767BF832CA98C8D00685C2C /* DiversityTheme.swift in Sources */,
+				775141FB2C8CBAB3002CF9B7 /* LameiAppApp.swift in Sources */,
+				771D27C82C8CBBF900CDA5BE /* NetworkService.swift in Sources */,
+				774C10A22CA70E0300E289EC /* DocDetailsView.swift in Sources */,
+				771D27C92C8CBBF900CDA5BE /* NetworkManager.swift in Sources */,
+				776ADD5D2CA4872400F49FF1 /* AppDelegate.swift in Sources */,
+				771D27C72C8CBBF300CDA5BE /* DataViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C5F8372C8C646A004BA7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7766E9022CA6D8C00019AB80 /* DocSelectorViewModel.swift in Sources */,
+				77C5F8502C8C64A5004BA7FE /* NetworkManager.swift in Sources */,
+				771D27CD2C8CBEDC00CDA5BE /* AnimatedGradient.swift in Sources */,
+				77C5F8412C8C646A004BA7FE /* ContentView.swift in Sources */,
+				771D27D12C8CC23100CDA5BE /* ExtensionsPlus.swift in Sources */,
+				7767BF842CA98C8D00685C2C /* DiversityTheme.swift in Sources */,
+				774C10A32CA70E0300E289EC /* DocDetailsView.swift in Sources */,
+				77C5F85B2C8C6E9F004BA7FE /* DataViewModel.swift in Sources */,
+				774C109F2CA70CD800E289EC /* DocDetailsViewModel.swift in Sources */,
+				77C5F8532C8C67C1004BA7FE /* NetworkService.swift in Sources */,
+				77C5F83F2C8C646A004BA7FE /* LameiApp.swift in Sources */,
+				77C5F8592C8C6AE1004BA7FE /* Prompt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		775142042C8CBAB5002CF9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LameiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F94YLNW6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LameiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HalfPolygon.LameiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775142052C8CBAB5002CF9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LameiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F94YLNW6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LameiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HalfPolygon.LameiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C5F8482C8C646A004BA7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77C5F8492C8C646A004BA7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		77C5F84B2C8C646A004BA7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lamei/Lamei.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lamei/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F94YLNW6S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HalfPolygon.Lamei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		77C5F84C2C8C646A004BA7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lamei/Lamei.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lamei/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F94YLNW6S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HalfPolygon.Lamei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775142032C8CBAB5002CF9B7 /* Build configuration list for PBXNativeTarget "LameiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775142042C8CBAB5002CF9B7 /* Debug */,
+				775142052C8CBAB5002CF9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C5F8362C8C646A004BA7FE /* Build configuration list for PBXProject "Lamei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C5F8482C8C646A004BA7FE /* Debug */,
+				77C5F8492C8C646A004BA7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C5F84A2C8C646A004BA7FE /* Build configuration list for PBXNativeTarget "Lamei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C5F84B2C8C646A004BA7FE /* Debug */,
+				77C5F84C2C8C646A004BA7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		774C10A42CA7239700E289EC /* XCRemoteSwiftPackageReference "llmfarm_core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/guinmoon/llmfarm_core.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+		77A1C6952CA7A2720082FC92 /* XCRemoteSwiftPackageReference "Toaster" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Toaster.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		774C10A52CA7239700E289EC /* llmfarm_core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 774C10A42CA7239700E289EC /* XCRemoteSwiftPackageReference "llmfarm_core" */;
+			productName = llmfarm_core;
+		};
+		77A1C6962CA7A2720082FC92 /* Toaster */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77A1C6952CA7A2720082FC92 /* XCRemoteSwiftPackageReference "Toaster" */;
+			productName = Toaster;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 77C5F8332C8C646A004BA7FE /* Project object */;
+}

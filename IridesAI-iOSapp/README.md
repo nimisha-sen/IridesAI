@@ -1,5 +1,4 @@
 # IridesAI App
-![Frame 313](https://github.com/user-attachments/assets/5b9459c7-a52b-4dff-b7fb-8b39ee1f14e5)
 
 
 ## Preview
@@ -15,5 +14,3 @@
 
 ## High Level & Low Level Design:
 <img width="1694" alt="Screenshot 2024-09-29 at 8 39 10 AM" src="https://github.com/user-attachments/assets/0ef0e3ec-9fb9-42e7-92f7-1d4efafbf076">
-
-![Frame 90](https://github.com/user-attachments/assets/4965efb7-4802-464f-bbfc-b3c6d479ec15)

@@ -1,0 +1,24 @@
+{
+  "originHash" : "1364c20db61f9751e07525bff5fb9986b1b9634689e3ba9a214b94e7c197705f",
+  "pins" : [
+    {
+      "identity" : "llmfarm_core.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/guinmoon/llmfarm_core.swift",
+      "state" : {
+        "revision" : "7226a84a69361c312c997453827c609e613585fd",
+        "version" : "0.8.1"
+      }
+    },
+    {
+      "identity" : "toaster",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devxoul/Toaster.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "db7f2f5096b642c711dcdcedceb450382bbc5abe"
+      }
+    }
+  ],
+  "version" : 3
+}
